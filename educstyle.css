@@ -1,0 +1,82 @@
+body {
+    background-image:linear-gradient(rgba(2,2,2,0.5),rgba(2,2,2,0.5)), url(../background.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+  
+.title-a {
+    position: absolute;
+    font-family: "Cambria";
+    top: 43%;
+    left: 40%;
+    color: black;
+    background: #5562d460;
+    padding: 5px 20px;
+
+}
+.title-b {
+    position: absolute;
+    font-size: 2em;
+    font-family: "Cambria";
+    top: 25%;
+    left: 32%;
+    color: black;
+    background: #5562d460;
+    padding: 5px 20px;
+}
+.aim {
+    position: absolute;
+    font-family: "Cambria";
+    font-size: 120%;
+    top: 35%;
+    left: 20%;
+    margin-right: 8px;
+    color: rgb(17, 14, 14);
+    background: #81b2d360;
+    padding: 5px 20px;
+    width: 800px;
+}
+.logo1 {
+    position: absolute;
+    width: 115px;
+    top: 10%;
+    left: 80%;
+}
+.logo2 {
+    position: absolute;
+    width: 95px;
+    top: 10%;
+    left: 10%;
+}
+  
+.img1 {
+    position: absolute;
+    top: 80%;
+    width: 550px;
+    height: 255px;
+    left: 8%;
+    border-radius: 20px;
+}
+.img2 {
+    position: absolute;
+    top: 80%;
+    width: 550px;
+    height: 255px;
+    left: 52%;
+}
+.btn {
+    color: rgb(14, 11, 11);
+    background: #8dbddd60;
+    position: absolute;
+    margin: 12px;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Cambria";
+    padding: 5px 20px;
+    transition: 0.2s;
+}
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(65, 91, 112);
+}
+  
