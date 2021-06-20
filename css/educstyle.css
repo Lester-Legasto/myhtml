@@ -1,0 +1,88 @@
+body {
+    background-image:linear-gradient(rgba(2,2,2,0.5),rgba(2,2,2,0.5)), url(../background.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+  
+.title-a {
+    position: absolute;
+    font-family: "Cambria";
+    top: 43%;
+    left: 40%;
+    color: black;
+    border-radius: 22px;
+    background: #5562d460;
+    padding: 5px 20px;
+    border: 1px solid white;
+}
+.title-b {
+    position: absolute;
+    font-size: 2em;
+    font-family: "Cambria";
+    top: 30%;
+    left: 32%;
+    color: black;
+    border-radius: 22px;
+    background: #5562d460;
+    padding: 5px 20px;
+    border: 1px solid white;
+}
+.aim {
+    position: absolute;
+    font-family: "Cambria";
+    font-size: 120%;
+    top: 58%;
+    margin-right: 8px;
+    color: rgb(17, 14, 14);
+    border-radius: 15px;
+    background: #81b2d360;
+    padding: 5px 20px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.logo1 {
+    position: absolute;
+    width: 115px;
+    top: 10%;
+    left: 20%;
+}
+.logo2 {
+    position: absolute;
+    width: 95px;
+    top: 10%;
+    left: 10%;
+}
+  
+.img1 {
+    position: absolute;
+    top: 90%;
+    width: 550px;
+    height: 255px;
+    left: 8%;
+    border-radius: 20px;
+}
+.img2 {
+    position: absolute;
+    top: 90%;
+    width: 550px;
+    height: 255px;
+    left: 52%;
+    border-radius: 20px;
+}
+.btn {
+    color: rgb(14, 11, 11);
+    background: #8dbddd60;
+    position: absolute;
+    margin: 12px;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Cambria";
+    padding: 5px 20px;
+    transition: 0.2s;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(65, 91, 112);
+}
+  

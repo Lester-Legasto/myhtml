@@ -1,0 +1,42 @@
+body {
+    background-image:linear-gradient(rgba(2, 2, 2, 0.5),rgba(2, 2, 2, 0.5)), url(../aa.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+  
+  .btn {
+    position: absolute;
+    margin: 25px;
+    margin-left: 25px;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Georgia";
+    color: rgb(200, 209, 231);
+    padding: 5px 15px;
+    border: 1px solid rgb(194, 206, 218);
+    transition: 0.2s;
+    border-radius: 5px;
+    background: #dae0e460;
+  }
+  
+  .btn:hover {
+    background-color: white;
+    color: rgb(109, 102, 102);
+  }
+  
+  .img {
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(28, 59, 107);
+    border-radius: 30px;
+    
+  }
+  
+  .gallery {
+    font-family: "Georgia";
+    font-size: 3.5em;
+    color: #fff;
+    margin-left: 400px;
+  }
+  
